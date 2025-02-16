@@ -1,0 +1,36 @@
+
+
+body {
+    background-color: #f4f4f4; /* Cinza claro */
+    color: #333333; /* Preto suave */
+}
+
+strong{
+    font-weight: bold;
+    color:darkblue 
+}
+h1{
+    font-weight: bold;
+}
+
+span{
+    color: #22D4FD;
+    background:  #f4f4f4;
+    border: 2px solid  darkblue;
+    padding: 10px;
+    margin-right: 10px; /* Adiciona espaço entre os spans */
+    display: inline-block; /* Garante que o padding e a margem funcionem corretamente */
+}
+a {
+    color:darkblue;
+
+}
+
+i
+footer {
+    background-color:#f4f4f4;
+    color:chartreuse;
+}
+span:last-child {
+    margin-right: 0;
+}

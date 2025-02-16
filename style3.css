@@ -1,0 +1,26 @@
+body {
+    background-color:#fefae0; /* Cinza claro */
+    color:#c07030  ; 
+}
+strong {
+    color:green; 
+}
+h1{
+    font-weight: bold;
+}
+span {
+    color:#c07030; /* Amarelo vibrante */
+    background: #fefae0;
+    border: 2px solid  #c07030;
+    padding: 10px;
+    margin-right: 10px; /* Adiciona espaço entre os spans */
+    display: inline-block; /* Garante que o padding e a margem funcionem corretamente */
+}
+a {
+    color: green;
+
+}
+footer {
+    background-color:#fefae0;
+    color:chartreuse;
+}

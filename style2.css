@@ -1,0 +1,27 @@
+body {
+    background-color:#1a1a1a; /* Cinza claro */
+    color: #e0e0e0; /* Preto suave */
+}
+
+strong {
+    color: #28a745; /* Verde vibrante */
+}
+h1{
+    font-weight: bold;
+}
+span {
+    color: #ffcc00; /* Amarelo vibrante */
+    background:  #1a1a1a;
+    border: 2px solid  #e0e0e0;
+    padding: 10px;
+    margin-right: 10px; /* Adiciona espaço entre os spans */
+    display: inline-block; /* Garante que o padding e a margem funcionem corretamente */
+}
+a {
+    color: #e0e0e0;
+
+}
+footer {
+    background-color: #1a1a1a;
+    color:chartreuse;
+}
