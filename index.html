@@ -2,48 +2,46 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
-    <link id="estilo-atual" rel="stylesheet" href="style.css">
-    <style>
-        img {
-          width: 40%;
-          height: auto;
-        }
-      </style>
+    <title>Portifolio</title>
+    <link id=   "estilo-atual" rel="stylesheet" href="style.css">
+   
 </head>
 
-<body class="theme-classic">
-    <header>
+<body>
+    <header></header>
 
-    </header>
-    <main>
-        <h1> Eleve a gestão de pessoas da sua empresa <strong> Implementando, Revisando e Auditando os seus processos!</strong> </h1>
-        <h2> Olá! Sou Adilson Faria, gestor de pessoas com especialização em Relações Trabalhistas e Sindicais. Ajudo médios e pequenos
-            negócios a turbinar a gestão de pesssoas e a colocarem em prática boas ideias.
-            <strong> Vamos conversar? </strong>
-        </h2>
-         
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">
+                Eleve a gestão de pessoas da sua empresa
+                <strong class="titulo-destaque"> Implementando, Revisando e Auditando os seus processos!</strong>
+            </h1>
+            <p class="apresentacao__conteudo__texto">
+                Olá! Sou Adilson Faria, gestor de pessoas com especialização em Relações Trabalhistas e Sindicais.
+                Ajudo médios e pequenos negócios a turbinar a gestão de pessoas e a colocarem em prática boas ideias.
+                <strong class="titulo-destaque"> Vamos conversar? </strong>
+            </p>
+        </section>
+        <img class="apresentacao__imagem" src="logoACLFarhia.jpg" alt="foto Adilson Faria">
     </main>
+
     <footer>
         <span>
             <a href="#" onclick="mudarEstilo('style.css')"> Estilo 1 </a>
         </span>
-            <span><a href="#" onclick="mudarEstilo('style2.css')"> Estilo 2 </a> |
-        </span>    
-        <span> <a href="#" onclick="mudarEstilo('style3.css')"> Estilo 3 </a>
-        </span>    
-
+        <span><a href="#" onclick="mudarEstilo('style2.css')"> Estilo 2 </a> | </span>    
+        <span> <a href="#" onclick="mudarEstilo('style3.css')"> Estilo 3 </a> </span> 
         <span>
-            <a href="https://www.linkedin.com/in/adilson-faria-bb678625 "> Instragram </a>
+            <a href="https://www.linkedin.com/in/adilson-faria-bb678625 "> Instagram </a>
         </span>
         <span> 
             <a href="https://github.com/aclfaria67"> GitHub </a>
         </span>
-            <img src="logoACLFarhia.jpg"  alt = "foto Adilson Faria">
     </footer>
+
     <script>
         function mudarEstilo(estilo) {
             document.getElementById('estilo-atual').setAttribute('href', estilo);

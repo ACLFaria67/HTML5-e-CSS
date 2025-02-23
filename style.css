@@ -1,36 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    background-color: #f4f4f4; /* Cinza claro */
-    color: #333333; /* Preto suave */
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    color: #F6F6F6;
 }
 
-strong{
+strong {
     font-weight: bold;
-    color:darkblue 
-}
-h1{
-    font-weight: bold;
+    color: darkblue;
 }
 
-span{
+span {
     color: #22D4FD;
-    background:  #f4f4f4;
-    border: 2px solid  darkblue;
+    background: #f4f4f4;
+    border: 2px solid darkblue;
     padding: 10px;
-    margin-right: 10px; /* Adiciona espaço entre os spans */
-    display: inline-block; /* Garante que o padding e a margem funcionem corretamente */
+    margin-right: 10px;
+    display: inline-block;
 }
+
 a {
-    color:darkblue;
-
+    color: darkblue;
 }
 
-i
 footer {
-    background-color:#f4f4f4;
-    color:chartreuse;
+    background-color: #f4f4f4;
+    color: chartreuse;
 }
-span:last-child {
-    margin-right: 0;
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center; /* Centraliza a imagem verticalmente */
+    justify-content: space-between; /* Texto à esquerda, imagem à direita */
+    gap: 20px;
+}
+
+.apresentacao__conteudo {
+    max-width: 600px; /* Mantém o texto legível */
+    display: flex;
+    flex-direction: column; /* Empilha o h1 e o p */
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+
+.apresentacao__imagem {
+    width: 500px; /* Tamanho ajustável da imagem */
+    height: auto;
 }
